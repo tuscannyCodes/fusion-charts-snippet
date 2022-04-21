@@ -1,5 +1,9 @@
 
-
+/* 
+Author: Tscanny 
+last updated : 4 21 22
+Description: dynamically renedered fusionchart based on dataset
+*/
 
 
 
@@ -25,23 +29,12 @@ const data =
         renderAt: 'chart-container5'
 	}
 };
+// DATA to loop over END
 
-
-
-
-
-
-
-// let setScore= ""
-
+// for in loop start 
 for (const key in data) {
 
-// console.log(`${key} : ${data[key].score}`);
-// console.log(`${data[key].Name}`);
-// setScore = data[key].score;
-// console.log(setScore);
-
-
+// this calls the render function that is building the charts with the data
 
 render(data[key]);
 
@@ -52,9 +45,7 @@ render(data[key]);
 
 function render(skill) {
 
-    // console.log(pointerVal)
     
-        // CHART 3
         FusionCharts.ready(function(){
             var chartObj = new FusionCharts({
     type: 'hlineargauge',
@@ -121,31 +112,6 @@ function render(skill) {
                 }
             ]
         },
-        // "annotations": {
-        //     "origw": "400",
-        //     "origh": "190",
-        //     "autoscale": "1",
-        //     "groups": [{
-        //         "id": "range",
-        //         "items": [{
-        //             "id": "rangeBg",
-        //             "type": "rectangle",
-        //             "x": "$chartCenterX-115",
-        //             "y": "$chartEndY-35",
-        //             "tox": "$chartCenterX +115",
-        //             "toy": "$chartEndY-15",
-        //             "fillcolor": "#0075c2"
-        //         }, {
-        //             // "id": "rangeText",
-        //             // "type": "Text",
-        //             // "fontSize": "11",
-        //             // "fillcolor": "#ffffff",
-        //             // "text": "Recommended Utilization Range : 70% - 85%",
-        //             // "x": "$chartCenterX",
-        //             // "y": "$chartEndY-25"
-        //         }]
-        //     }]
-        // }
     }
     }
     );

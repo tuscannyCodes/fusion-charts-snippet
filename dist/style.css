@@ -1,0 +1,77 @@
+/* .mainContainer{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+
+.textContainer{
+
+    display: inline-block;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+}
+
+
+
+#chart-container3{
+  float: left;
+  display: inline;
+
+}
+
+
+
+.raphael-group-61-dataset-Label-group{
+
+
+    display: none !important;
+}
+
+.raphael-group-59-axis-Line-group{
+
+    display: none;
+}
+
+.raphael-group-pDodnGPU{
+
+    display: none;
+}
+
+
+.raphael-group-26-caption{
+ 
+display: flex;
+flex-direction: row;} */
+
+#main{
+
+width: 500px;
+
+
+}
+
+
+.float{
+
+    float: left;
+}
+
+#chart-container4{
+
+margin-top: -50px;
+
+    
+}
+
+
+#chart-container5{
+
+    margin-top: -50px;
+    
+    
+        
+    }

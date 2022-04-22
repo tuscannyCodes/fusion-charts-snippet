@@ -7,9 +7,6 @@ Description: dynamically renedered fusionchart based on dataset
 
 // variables
 
-const skillHeader1 = document.getElementById('skillHeader1');
-const skillHeader2 = document.getElementById('skillHeader2');
-const skillHeader3 = document.getElementById('skillHeader3');
 const mainContainer = document.getElementById('main');
 
 // DATA to loop over
@@ -114,18 +111,18 @@ function renderChart(skill) {
                     "dashed": "1",
                     "showValues": "0"
                 }, {
-                    "startValue": "85",
+                    "startValue": "0",
                     "displayValue": " ",
-                    "dashed": "1",
+                    "dashed": "5",
                     "showValues": "0"
                 },
                 //Trendzone
-                {
-                    "startValue": "70",
-                    "endValue": "85",
-                    "displayValue": " ",
-                    "alpha": "40"
-                }
+                // {
+                //     "startValue": "70",
+                //     "endValue": "85",
+                //     "displayValue": " ",
+                //     "alpha": "40"
+                // }
             ]
         },
     }

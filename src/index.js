@@ -45,7 +45,7 @@ for (const key in data) {
 renderChart(data[key]);
 renderText(data[key]);
 }
-// end of for loop
+// end of the for loop
 
 // this creates h1 text and populates it with skill.name
 function renderText(skill){

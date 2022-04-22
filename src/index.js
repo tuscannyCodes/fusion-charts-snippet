@@ -46,7 +46,7 @@ renderChart(data[key]);
 renderText(data[key]);
 }
 // end of for the loop
-// test commit
+
 // this creates h1 text and populates it with skill.name
 function renderText(skill){
 
@@ -139,17 +139,6 @@ function renderChart(skill) {
      
     }//End of renderChart Function
 
-
-
-// attempt at dynamic data using map
-
-// const mappedScores = 
-// Object.values(data).map((skill) => {
-
-// return skill.score + skill.Name;
-
-// })
-// console.log(mappedScores)
 
 
 

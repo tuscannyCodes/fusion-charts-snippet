@@ -45,8 +45,8 @@ for (const key in data) {
 renderChart(data[key]);
 renderText(data[key]);
 }
-// end of the for loop
-
+// end of for the loop
+// test commit
 // this creates h1 text and populates it with skill.name
 function renderText(skill){
 
@@ -158,6 +158,5 @@ function renderChart(skill) {
 
 
 
-        
-        
+          
         
